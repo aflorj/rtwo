@@ -1,0 +1,42 @@
+.template-main {
+  max-width: 1260px;
+  margin: 20px auto;
+}
+
+.header {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $strong;
+  border-radius: 0.25rem;
+  font-size: 1.3rem;
+}
+
+.navbar-links {
+  a {
+    margin: 0px 40px;
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: $lively;
+  }
+}
+
+.navbar-user {
+  display: flex;
+}
+
+.user-info {
+  color: white;
+  margin-right: 14px;
+}
+
+.user-decoration {
+  font-weight: 800;
+}
